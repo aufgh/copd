@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------- Python 服务端
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 运行期产物：删掉即可重置演示数据
+server/data/uploads/*.wav
+server/data/*.sqlite3
+server/data/*.sqlite3-wal
+server/data/*.sqlite3-shm
+
+# ---------------------------------------------------------------- Android
+android/.gradle/
+android/build/
+android/app/build/
+**/build/
+.cxx/
+captures/
+
+# 机器相关：里面写的是本机 SDK 路径，换电脑必须重新生成，不能提交
+android/local.properties
+local.properties
+
+# 签名文件绝不入库
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# ---------------------------------------------------------------- IDE / 系统
+# .idea 整体不提交：workspace.xml 里全是本机窗口状态和路径
+.idea/
+*.iml
+.kotlin/
+**/.kotlin/
+.DS_Store
+Thumbs.db
+
+# 例外：wrapper 的 jar 是构建必需品，将来生成后要提交
+!android/gradle/wrapper/gradle-wrapper.jar

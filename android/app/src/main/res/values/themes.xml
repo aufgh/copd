@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      只做深色一套主题：演示投屏更稳，也避免半做两套配色导致对比度问题。
+      不依赖 com.google.android.material，直接用平台 Material 主题做壳，
+      真正的配色在 Compose 的 ui/theme 里定义。
+    -->
+    <style name="Theme.CopdTrend" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

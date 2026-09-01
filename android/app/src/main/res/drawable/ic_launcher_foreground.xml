@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 简化的呼吸波形：三段递进的对称柱 -->
+    <path
+        android:fillColor="#4FD1C5"
+        android:pathData="M33,50 h4 v8 h-4 z" />
+    <path
+        android:fillColor="#4FD1C5"
+        android:pathData="M41,44 h4 v20 h-4 z" />
+    <path
+        android:fillColor="#4FD1C5"
+        android:pathData="M49,36 h4 v36 h-4 z" />
+    <path
+        android:fillColor="#4FD1C5"
+        android:pathData="M57,42 h4 v24 h-4 z" />
+    <path
+        android:fillColor="#4FD1C5"
+        android:pathData="M65,48 h4 v12 h-4 z" />
+    <path
+        android:fillColor="#2C7A7B"
+        android:pathData="M73,52 h4 v4 h-4 z" />
+</vector>
